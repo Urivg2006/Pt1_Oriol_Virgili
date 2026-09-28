@@ -140,15 +140,14 @@
     <Button
         android:id="@+id/buttonresult"
         android:layout_width="89dp"
-        android:layout_height="292dp"
+        android:layout_height="0dp"
         android:backgroundTint="@color/boto"
         android:text="="
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toBottomOf="@+id/buttonsum"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.913"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.936" />
+        app:layout_constraintHorizontal_bias="0.627"
+        app:layout_constraintStart_toEndOf="@+id/buttonmult"
+        app:layout_constraintTop_toTopOf="@+id/buttondiv" />
 
     <Button
         android:id="@+id/buttonrest"
